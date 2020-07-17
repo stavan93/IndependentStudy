@@ -1,0 +1,40 @@
+[
+  {
+    "queryid": "enwiki:Antibiotics",
+    "contextid": "abcd1234",
+    "contexttext": "abacdeeaewfa",
+    "ReverbTriples": [
+      {
+        "subject": "Obama",
+        "predicate": "was born in ",
+        "object": "Hawaii",
+        "confidence_score":"0.2345"
+      },
+      {
+        "subject": "Obama",
+        "predicate": "was born in ",
+        "object": "Hawaii",
+        "confidence_score":"0.2345"
+      }
+    ]
+  },
+  {
+    "queryid": "enwiki:Antibiotics",
+    "contextid": "abcd1234",
+    "contexttext": "abacdeeaewfa",
+    "ReverbTriples": [
+      {
+        "subject": "Obama",
+        "predicate": "was born in ",
+        "object": "Hawaii",
+        "confidence_score":"0.2345"
+      },
+      {
+        "subject": "Obama",
+        "predicate": "was born in ",
+        "object": "Hawaii",
+        "confidence_score":"0.2345"
+      }
+    ]
+  }
+]
