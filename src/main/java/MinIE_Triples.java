@@ -24,7 +24,7 @@ public class MinIE_Triples {
     public void extract() throws FileNotFoundException {
         JSONParser parser = new JSONParser();
 
-        try(Reader reader = new FileReader("data\\BM25RelevantResult\\output_query_json_file_1.json")){
+        try(Reader reader = new FileReader("data/BM25RelevantResult/output_query_json_file_1.json")){
             JSONArray jsonArray = (JSONArray) parser.parse(reader);
             JSONObject jsonObject = null;
             JSONArray employeeList = new JSONArray();
@@ -85,7 +85,7 @@ public class MinIE_Triples {
             }
             System.out.println(num);
 
-            try (FileWriter file = new FileWriter("data\\MinIETriples\\Minie_Triples_json_file_1.json")) {
+            try (FileWriter file = new FileWriter("data/MinIETriples/Minie_Triples_json_file_1.json")) {
 
                 Gson gson = new GsonBuilder().setPrettyPrinting().create();
                 JsonParser jp = new JsonParser();
