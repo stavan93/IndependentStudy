@@ -32,7 +32,7 @@ public class Read_Json {
 
         JSONParser parser = new JSONParser();
 
-        try (Reader reader = new FileReader("data\\BM25RelevantResult\\output_query_json_file_4.json")) {
+        try (Reader reader = new FileReader("data/BM25RelevantResult/output_query_json_file_4.json")) {
             Properties props = new Properties();
             // set the list of annotators to run
             props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse,depparse,coref,kbp,quote");
@@ -196,7 +196,7 @@ public class Read_Json {
 
 
 
-            try (FileWriter file = new FileWriter("data\\ReverbTriples\\Reverb_Triples_json_file_4.json")) {
+            try (FileWriter file = new FileWriter("data/ReverbTriples/Reverb_Triples_json_file_4.json")) {
 
                 Gson gson = new GsonBuilder().setPrettyPrinting().create();
                 JsonParser jp = new JsonParser();
