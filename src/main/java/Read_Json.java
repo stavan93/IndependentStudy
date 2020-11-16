@@ -69,6 +69,7 @@ public class Read_Json {
                 String crank = (String)jsonObject.get("contextrank");
                 String cscore = (String)jsonObject.get("contextscore");
                 num++;
+                ctext = ctext.replaceAll("[\\(]", "").replaceAll("[\\)]", "").replaceAll("[\\\\]", "");
                 CoreDocument document = new CoreDocument(ctext);
                 // annnotate the document
                 pipeline.annotate(document);
