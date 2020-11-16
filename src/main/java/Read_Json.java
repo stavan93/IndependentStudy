@@ -88,7 +88,7 @@ public class Read_Json {
                         //System.out.println(num + " " + sent.get(num));
                         String textt = ll.get(numm).replaceAll(("\\b"+s.getValue().getMentionsInTextualOrder().get(k).mentionSpan+"\\b"),(s.getValue().getRepresentativeMention().mentionSpan));
                         //System.out.println(textt);
-                        ll.set(num,textt);
+                        ll.set(numm,textt);
                     }
                     System.out.println();
                 }
